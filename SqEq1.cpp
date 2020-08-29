@@ -18,7 +18,7 @@ int main(){
 
     k = reshy_kvadrat(a, b, c, &x1, &x2);
 
-    if (k == NULL){
+    if (k == -1){
 
         printf("Beskone4noe kol-vo rjney");
     }
@@ -45,7 +45,7 @@ int reshy_kvadrat(double a, double b, double c, double* x1, double* x2){
 
         if (c == 0){
 
-            return NULL;
+            return -1;
         }
         else{
 
